@@ -8,7 +8,7 @@ import Miami from "../assets/images/galeriaProyectos/7MIAMI.png";
 import Almirante from "../assets/images/galeriaProyectos/8ALMIRANTEGUISSE.png";
 import SanLorenzo from "../assets/images/galeriaProyectos/9SANLORENZO.png";
 import { ProyectCard } from "../components/ProyectCard";
-import Vista from "../assets/images/galeriaPiloto/Vista4.png";
+import Vista from "../assets/images/galeriaPiloto/Vista_4.png";
 export const PoyectosEntregados = () => {
   const proyects = [
     {

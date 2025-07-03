@@ -1,4 +1,4 @@
-import Vista from "../assets/images/galeriaPiloto/Vista4.png";
+import Vista from "../assets/images/galeriaPiloto/Vista_4.png";
 export const PageNotFound = () => {
   return (
     <div
