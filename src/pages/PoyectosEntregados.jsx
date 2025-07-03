@@ -19,8 +19,8 @@ export const PoyectosEntregados = () => {
     },
     {
       img: SantaCruz,
-      title: "Alonso de Molina",
-      description: "Distrito de Pueblo Libre",
+      title: "Santa Cruz",
+      description: "Distrito de Jesús María",
       id: 2,
     },
     {
@@ -71,10 +71,14 @@ export const PoyectosEntregados = () => {
       className="relative bg-cover bg-center min-h-screen"
       style={{ backgroundImage: `url(${Vista})` }}>
       <div className="absolute inset-0 bg-white opacity-70"></div>
-      <div className="relative grid grid-cols-1 md:grid-cols-3 gap-6 py-12 px-8">
-        {proyects.map((proyect) => (
-          <ProyectCard key={proyect.id} proyect={proyect} />
-        ))}
+
+      {/* Centered container */}
+      <div className="relative flex justify-center py-12 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl w-full">
+          {proyects.map((proyect) => (
+            <ProyectCard key={proyect.id} proyect={proyect} />
+          ))}
+        </div>
       </div>
     </section>
   );
