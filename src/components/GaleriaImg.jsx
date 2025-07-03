@@ -1,14 +1,14 @@
 import { Carousel } from "./Carousel";
-import Vista1 from "../assets/images/galeriaPiloto/vista1.png";
-import Vista2 from "../assets/images/galeriaPiloto/vista2.png";
-import Vista3 from "../assets/images/galeriaPiloto/vista3.png";
-import Vista4 from "../assets/images/galeriaPiloto/vista4.png";
-import Vista5 from "../assets/images/galeriaPiloto/vista5.png";
-import Vista6 from "../assets/images/galeriaPiloto/vista6.png";
-import Vista7 from "../assets/images/galeriaPiloto/vista7.png";
-import Vista8 from "../assets/images/galeriaPiloto/vista8.png";
-import Vista9 from "../assets/images/galeriaPiloto/vista9.png";
-import Vista10 from "../assets/images/galeriaPiloto/vista10.png";
+import Vista1 from "../assets/images/galeriaPiloto/Vista1.png";
+import Vista2 from "../assets/images/galeriaPiloto/Vista2.png";
+import Vista3 from "../assets/images/galeriaPiloto/Vista3.png";
+import Vista4 from "../assets/images/galeriaPiloto/Vista4.png";
+import Vista5 from "../assets/images/galeriaPiloto/Vista5.png";
+import Vista6 from "../assets/images/galeriaPiloto/Vista6.png";
+import Vista7 from "../assets/images/galeriaPiloto/Vista7.png";
+import Vista8 from "../assets/images/galeriaPiloto/Vista8.png";
+import Vista9 from "../assets/images/galeriaPiloto/Vista9.png";
+import Vista10 from "../assets/images/galeriaPiloto/Vista10.png";
 
 export const GaleriaImg = () => {
   const slides = [
