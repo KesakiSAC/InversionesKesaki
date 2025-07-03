@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Imperial+Script&family=Playwrite+IT+Moderna:wght@100..400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Imperial+Script&family=Onest:wght@100..900&family=Playwrite+IT+Moderna:wght@100..400&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+@import "tailwindcss";
+
+main {
+  max-width: 1560px;
+  margin: auto;
+  min-height: 90vh;
+  padding: 10px;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+@theme {
+  --color-brownheader: #bcada5;
+  --color-backgroundPeach: #ccb29f;
+  --color-acentOrange: #b0750a;
+  --color-acentOrange1: #753401;
+  --color-acentGreen: #3e4c22;
+  --color-title: #283015;
+  --color-secondaryGreen: #e1e2d6;
+  --font-redHat: "Red Hat Display", sans-serif;
+  --font-onest: "Onest", sans-serif;
+  --font-libre: "Libre Bodoni", serif;
+  --font-roboto: "Roboto Flex", sans-serif;
+}
