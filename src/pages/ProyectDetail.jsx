@@ -31,7 +31,10 @@ export const ProyectDetail = ({ handlePopup }) => {
               <h1 className="text-acentGreen text-3xl font-bold pb-8">
                 Departamentos diseñados <br /> pensando en tu futuro
               </h1>
-              <a href="../../public/BROCHURE2025.pdf" target="_blank">
+              <a
+                href="/BROCHURE2025.pdf"
+                target="_blank"
+                rel="noopener noreferrer">
                 <Button className="self-center">VER BOUCHER</Button>
               </a>
             </div>
