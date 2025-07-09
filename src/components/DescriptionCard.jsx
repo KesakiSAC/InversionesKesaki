@@ -10,7 +10,7 @@ export const DescriptionCard = ({ handlePopup }) => {
 
   const caracteristicas = `
     <strong>Ubicación:</strong> Jr. Alonso de Molina 546, Manzana B, Lote 11, Urb. Huertos de San Antonio, Santiago de Surco <br>
-    <strong>Metraje:</strong> Desde 82.00 m² hasta 210.00 m² <br>
+    <strong>Metraje:</strong> Desde 80.00 m² hasta 210.00 m² <br>
     <strong>Dormitorios:</strong> 1, 2 y 3 <br>
     <strong>Etapa:</strong> Pre Venta <br>
     <strong>Entrega Estimada:</strong> Diciembre 2026 <br>

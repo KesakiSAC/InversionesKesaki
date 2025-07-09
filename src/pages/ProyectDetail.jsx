@@ -43,7 +43,7 @@ export const ProyectDetail = ({ handlePopup }) => {
                 href="/BROCHURE2025.pdf"
                 target="_blank"
                 rel="noopener noreferrer">
-                <Button className="self-center">VER BOUCHER</Button>
+                <Button className="self-center">VER BROCHURE</Button>
               </a>
             </div>
 
@@ -161,8 +161,8 @@ export const ProyectDetail = ({ handlePopup }) => {
           <h1 className="text-acentGreen text-2xl font-bold pb-2">
             Horario de Atención
           </h1>
-          <p className="py-1 text-sm md:text-base">L-S: 10:00 am a 7:00 pm</p>
-          <p className="py-1 text-sm md:text-base">D: 10:00 am a 6:00 pm</p>
+          <p className="py-1 text-sm md:text-base">L-S: 9:00 am a 5:00 pm</p>
+          <p className="py-1 text-sm md:text-base">D: 10:00 am a 5:00 pm</p>
           <p className="py-1 text-sm md:text-base">
             Sala de ventas: Jr. Alonso de Molina 546, distrito de Santiago de
             Surco.

@@ -48,11 +48,6 @@ export const Footer = () => {
                   <FontAwesomeIcon icon={faPhone} /> (+51)937 255 091 | Servicio
                   al ciente
                 </li>
-                <li>
-                  {" "}
-                  <FontAwesomeIcon icon={faMailBulk} />{" "}
-                  info@inversioneskesaki.com.pe | Información
-                </li>
               </ul>
             </div>
             <div>
