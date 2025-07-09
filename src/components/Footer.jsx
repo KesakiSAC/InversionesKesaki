@@ -77,13 +77,13 @@ export const Footer = () => {
               </h3>
               <div className="flex flex-col gap-4">
                 <a
-                  href="https://www.facebook.com/ElClosetdeAsarena"
+                  href="https://www.facebook.com/InversionesKesaki"
                   target="_blank"
                   className="hover:text-white text-gray-500">
                   <FontAwesomeIcon icon={faFacebook} /> Facebook
                 </a>
                 <a
-                  href="https://www.facebook.com/ElClosetdeAsarena"
+                  href="https://www.facebook.com/InversionesKesaki"
                   target="_blank"
                   className="hover:text-white text-gray-500">
                   <FontAwesomeIcon icon={faInstagram} /> Instagram

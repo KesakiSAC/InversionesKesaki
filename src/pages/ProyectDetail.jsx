@@ -1,5 +1,7 @@
+import { useState, useEffect } from "react";
 import { Header } from "../components/Header";
 import BackgroundSala from "../assets/images/backgroundSala.png";
+import BackgroundSalaBlur from "../assets/images/backgroundSala-blur.png";
 import Fachada from "../assets/images/Fachada.png";
 import { GaleriaPlantas } from "../components/GaleriaPlantas";
 import { GaleriaImg } from "../components/GaleriaImg";
@@ -16,10 +18,16 @@ import { Button } from "../components/Button";
 import { DescriptionCard } from "../components/DescriptionCard";
 
 export const ProyectDetail = ({ handlePopup }) => {
+  const [bgImage, setBgImage] = useState(BackgroundSalaBlur);
+  useEffect(() => {
+    const img = new Image();
+    img.src = BackgroundSala;
+    img.onload = () => setBgImage(BackgroundSala);
+  }, []);
   return (
     <div>
       <div
-        className="bg-cover  md:bg-center  h-screen overflow-clip"
+        className="bg-cover md:bg-center h-screen overflow-clip transition-all duration-700 ease-in-out"
         style={{ backgroundImage: `url(${BackgroundSala})` }}>
         <Header handlePopup={handlePopup}></Header>
         <section className="max-w-7xl  mx-auto pt-10">
