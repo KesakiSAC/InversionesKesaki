@@ -83,7 +83,7 @@ export const Header = ({ handlePopup }) => {
               className={`${
                 hidden
                   ? "  flex flex-col font-medium  p-8 md:p-0 mt-4   md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
-                  : "bg-brownheader/70 flex flex-col font-medium  p-8 md:p-0 mt-4   md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+                  : "bg-brownheader/95 flex flex-col font-medium  p-8 md:p-0 mt-4   md:space-x-10 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
               } `}>
               <li>
                 <NavLink

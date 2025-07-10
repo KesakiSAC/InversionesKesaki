@@ -30,7 +30,7 @@ export const ProyectDetail = ({ handlePopup }) => {
         className="bg-cover md:bg-center min-h-screen overflow-hidden transition-all duration-700 ease-in-out"
         style={{ backgroundImage: `url(${BackgroundSala})` }}>
         <Header handlePopup={handlePopup}></Header>
-        <section className="max-w-7xl mx-auto py-6 md:py-10">
+        <section className="max-w-7xl mx-auto  py-45 md:py-12">
           <div className="flex flex-col md:flex-row justify-center items-center gap-10 p-4 text-center md:text-left">
             <div className="bg-white/50 p-5 flex flex-col rounded-lg ">
               <h2 className="text-acentOrange1  text-xl  font-bold pb-5 shrink ">
